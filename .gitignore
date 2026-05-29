@@ -1,0 +1,23 @@
+*
+!doc
+!doc/**
+doc/BADASS\ 2.1.pdf
+
+!docker
+!docker/**
+
+!P1
+!P1/**
+!P2
+!P2/**
+!P3
+!P3/**
+
+!images
+!images/**
+
+!Vagrantfile
+!.gitignore
+!README.md
+!README_es.md
+!LICENSE
