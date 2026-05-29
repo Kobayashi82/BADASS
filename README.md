@@ -28,19 +28,19 @@ vagrant ssh                    # SSH into the VM
 vagrant ssh -- -X -t gns3      # Start GNS3
 ```
 
-## Part 1 (GNS3 configuration with Docker)
+## Part 1 (GNS3)
 
 - Two `Docker` images are used in `GNS3`.
 - `Image 1`: minimal system with `busybox`.
 - `Image 2`: routing-capable system with `BGPD`, `OSPFD`, `IS-IS` and `busybox`.
 
-## Part 2: (discovering VXLAN)
+## Part 2: (VXLAN)
 
 - `VXLAN` with `VNI 10` and `bridge br0`.
 - Implementation in `static` and `multicast` mode.
 - `MAC` learning verified on both routers without `IP` on hosts.
 
-## Part 3: (discovering BGP with EVPN)
+## Part 3: (BGP EVPN)
 
 - `EVPN` configured over `VXLAN` with `VNI 10`.
 - Route reflection enabled, `VTEP` learns `MACs` dynamically.
